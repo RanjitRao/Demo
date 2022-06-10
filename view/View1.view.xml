@@ -1,0 +1,110 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.hkl.petauslista.fp_3.controller.View1" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page showHeader="false">
+		<VBox alignItems="Center" class="sapUiSmallMarginBeginEnd">
+			<HBox alignItems="Center" justifyContent="Center">
+				<ComboBox id="idCmbHSDate" forceSelection="false" placeholder="{i18n>HASTUSSTART}">
+					<core:ListItem key="12.01.2022" text="12.01.2022" icon="sap-icon://date-time"/>
+				</ComboBox>
+				<Button text="{i18n>GO}" type="Emphasized" press="onLoadData" class="sapUiTinyMargin" />
+			</HBox>
+			<Table id="idSMTable" class="bordertable" items="{/data}" alternateRowColors="true" updateFinished="onUpdateFinished">
+				<headerToolbar>
+					<OverflowToolbar>
+						<content>
+							<Title id="idTableTitle" text="{i18n>SEASONS}" />
+							<ToolbarSpacer />
+							<SearchField width="15rem" search="onSearch" enabled="{AppModel>/TableEnabled}"/>
+							<ToolbarSeparator />
+							<Button text="{i18n>ADDSEASON}" type="Emphasized" press="onAddEditPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="Mode" value="Add" />
+								</customData>
+							</Button>
+						</content>
+					</OverflowToolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<HBox alignItems="Center">
+							<Link text="{i18n>SEASONKEY}" press="onLinkPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="SeasonKey" />
+								</customData>
+							</Link>
+							<core:Icon id="idIconSK" src="sap-icon://up" visible="true" class="size1" />
+						</HBox>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true">
+						<HBox alignItems="Center">
+							<Link text="{i18n>HASTUSSTART}" press="onLinkPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="HStart" />
+								</customData>
+							</Link>
+							<core:Icon id="idIconHS" src="sap-icon://up" visible="false" class="size1" />
+						</HBox>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true">
+						<HBox alignItems="Center">
+							<Link text="{i18n>HASTUSEND}" press="onLinkPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="HEnd" />
+								</customData>
+							</Link>
+							<core:Icon id="idIconHE" src="sap-icon://up" visible="false" class="size1" />
+						</HBox>
+					</Column>
+					<Column>
+						<HBox alignItems="Center">
+							<Link text="{i18n>SEASONSTART}" press="onLinkPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="SStart" />
+								</customData>
+							</Link>
+							<core:Icon id="idIconSS" src="sap-icon://up" visible="false" class="size1" />
+						</HBox>
+					</Column>
+					<Column>
+						<HBox alignItems="Center">
+							<Link text="{i18n>SEASONEND}" press="onLinkPress" enabled="{AppModel>/TableEnabled}">
+								<customData>
+									<core:CustomData key="SEnd" />
+								</customData>
+							</Link>
+							<core:Icon id="idIconSE" src="sap-icon://up" visible="false" class="size1" />
+						</HBox>
+					</Column>
+					<Column width="6rem"></Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{SeasonKey}" />
+							<Text text="{HStart}" />
+							<Text text="{HEnd}" />
+							<Text text="{SStart}" />
+							<Text text="{SEnd}" />
+							<HBox>
+								<Button icon="sap-icon://edit" type="Accept" press="onAddEditPress" class="sapUiTinyMarginEnd">
+									<customData>
+										<core:CustomData key="SK" value="{SeasonKey}" />
+										<core:CustomData key="HS" value="{HStart}" />
+										<core:CustomData key="HE" value="{HEnd}" />
+										<core:CustomData key="SS" value="{SStart}" />
+										<core:CustomData key="SE" value="{SEnd}" />
+										<core:CustomData key="Mode" value="Edit" />
+									</customData>
+								</Button>
+								<Button icon="sap-icon://delete" type="Reject" press="onDeletePress">
+									<customData>
+										<core:CustomData key="{SeasonKey}" />
+									</customData>
+								</Button>
+							</HBox>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</VBox>
+	</Page>
+</core:View>

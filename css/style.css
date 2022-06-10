@@ -1,0 +1,9 @@
+.size1.sapUiIcon {
+    margin-left: 0.05rem;
+    font-size: 0.70rem !important;
+}
+
+html.sap-desktop .sapMLnk:focus:not(.sapMLnkDsbl) {
+    outline: 0;
+}
+

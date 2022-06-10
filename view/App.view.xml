@@ -1,0 +1,8 @@
+<mvc:View controllerName="com.hkl.petauslista.fp_3.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Page showHeader="false">
+		<content>
+			<App id="idAppControl"/>
+		</content>
+	</Page>
+</mvc:View>

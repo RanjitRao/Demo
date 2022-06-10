@@ -1,0 +1,479 @@
+{
+  "Assessment": [
+    {
+      "Title": "TASQ 2015",
+      "LastPerformedDate": "21-07-2015",
+      "Text": "Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "Images": [
+        {
+          "Image": "images/trainingImg1.png"
+        },
+        {
+          "Image": "images/trainingImg21.png"
+        }
+      ]
+    }
+  ],
+  "FarmTimeline": [
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Type": "Phone Call"
+    },
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Type": "Email"
+    },
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Type": "Phone Call"
+    }
+  ],
+  "AssessmentHistory": [
+    {
+      "Status": "Yes",
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Remarks": "TASQ 2015"
+    },
+    {
+      "Status": "Yes",
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Remarks": "TASQ 2015"
+    },
+    {
+      "Status": "Yes",
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Remarks": "TASQ 2015"
+    }
+  ],
+  "SalesHistory": [
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Weight": "125",
+      "Rate": "3.522"
+    },
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Weight": "125",
+      "Rate": "2.345"
+    },
+    {
+      "Date": "14-03-2015",
+      "Time": "17:45",
+      "Weight": "125",
+      "Rate": "2.567"
+    }
+  ],
+  "EntitiesCollection": [
+    {
+      "Image": "images/img1.PNG",
+      "Name": "Portacello Farm1",
+      "Id": "023847",
+      "Contact": "Jose Benig Miranda",
+      "Status": "Operational",
+      "Year": "2012",
+      "Certification Status": "Passed",
+      "Type": "Farm",
+      "LastAssessmentDate": "03-12-2014",
+      "LastInteraction": "03-12-2014"
+    },
+    {
+      "Image": "images/img1.PNG",
+      "Name": "Portacello Farm2",
+      "Id": "023847",
+      "Contact": "Jose Benig Miranda",
+      "Status": "Operational",
+      "Year": "2012",
+      "Certification Status": "Passed",
+      "Type": "Farm",
+      "LastAssessmentDate": "03-12-2014",
+      "LastInteraction": "03-12-2014"
+    },
+    {
+      "Image": "images/img1.PNG",
+      "Name": "Portacello Farm",
+      "Id": "023847",
+      "Contact": "Jose Benig Miranda",
+      "Status": "Operational",
+      "Year": "2012",
+      "Certification Status": "Passed",
+      "Type": "Farm",
+      "LastAssessmentDate": "03-12-2014",
+      "LastInteraction": "03-12-2014"
+    },
+    {
+      "Image": "images/img1.PNG",
+      "Name": "Portacello Farm",
+      "Id": "023847",
+      "Contact": "Jose Benig Miranda",
+      "Status": "Operational",
+      "Year": "2012",
+      "Certification Status": "Passed",
+      "Type": "Farm",
+      "LastAssessmentDate": "03-12-2014",
+      "LastInteraction": "03-12-2014"
+    }
+  ],
+  "Menu": [
+    {
+      "Title": "Dashboard"
+    },
+    {
+      "Title": "Entity information"
+    },
+    {
+      "Title": "Media"
+    },
+    {
+      "Title": "Sales history"
+    },
+    {
+      "Title": "Timeline"
+    },
+    {
+      "Title": "Assessment history"
+    },
+    {
+      "Title": "Entity KPI’s"
+    }
+  ],
+  "TrainingEvents": [
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg1.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg21.png"
+        },
+        {
+          "Image": "images/trainingImg22.png"
+        },
+        {
+          "Image": "images/trainingImg23.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg3.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg4.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg21.png"
+        },
+        {
+          "Image": "images/trainingImg22.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg3.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    },
+    {
+      "ImageCollection": [
+        {
+          "Image": "images/trainingImg1.png"
+        }
+      ],
+      "TrainingType": "Water Training",
+      "Date": "07 - 22 - 2015",
+      "Location": "Townhall Tetar",
+      "Trainer": "Stephen Herold"
+    }
+  ],
+  "WaterTrainingCollection": [
+    {
+      "Image": "images/WaterTrainingTable1.png",
+      "Name": "Jose Benig Miranda",
+      "Id": "0342455",
+      "Active": "Y"
+    },
+    {
+      "Image": "images/WaterTrainingTable2.png",
+      "Name": "Jose Benig Miranda",
+      "Id": "2314422",
+      "Active": "N"
+    },
+    {
+      "Image": "images/WaterTrainingTable3.png",
+      "Name": "Jose Benig Miranda",
+      "Id": "0123456",
+      "Active": "N"
+    },
+    {
+      "Image": "images/WaterTrainingTable4.png",
+      "Name": "Jose Benig Miranda",
+      "Id": "3435767",
+      "Active": "N"
+    },
+    {
+      "Image": "images/WaterTrainingTable5.png",
+      "Name": "Jose Benig Miranda",
+      "Id": "0234348",
+      "Active": "N"
+    }
+  ],
+  "Timeline": [
+    {
+      "Year": "2015",
+      "Image": "images/handShake1.png",
+      "Details": [
+        {
+          "Date": "21/08/2015",
+          "Interaction": "Pollution Assessment",
+          "Description": "Passed"
+        },
+        {
+          "Date": "21/08/2015",
+          "Interaction": "Pollution Assessment",
+          "Description": "Passed"
+        }
+      ]
+    },
+    {
+      "Year": "2014",
+      "Image": "images/convocation1.png",
+      "Details": [
+        {
+          "Date": "02/09/2014",
+          "Interaction": "Water Management Training",
+          "Description": "2 hour classroom course"
+        }
+      ]
+    },
+    {
+      "Year": "2013",
+      "Image": "images/convocation1.png",
+      "Details": [
+        {
+          "Date": "15/09/2013",
+          "Interaction": "TASQ",
+          "Description": "Certified"
+        }
+      ]
+    },
+    {
+      "Year": "2012",
+      "Image": "images/convocation1.png",
+      "Details": [
+        {
+          "Date": "24/10/2012",
+          "Interaction": "Fertiliser Change",
+          "Description": "Certified"
+        }
+      ]
+    }
+  ],
+  "KPI": [
+    {
+      "Year": "2014",
+      "Quarters": [
+        {
+          "Quarter": "Q1",
+          "Volume": "60",
+          "Price": "25"
+        },
+        {
+          "Quarter": "Q2",
+          "Volume": "50",
+          "Price": "30"
+        },
+        {
+          "Quarter": "Q3",
+          "Volume": "65",
+          "Price": "30"
+        },
+        {
+          "Quarter": "Q4",
+          "Volume": "60",
+          "Price": "20"
+        }
+      ]
+    },
+    {
+      "Year": "2015",
+      "Quarters": [
+        {
+          "Quarter": "Q1",
+          "Volume": "70",
+          "Price": "29"
+        },
+        {
+          "Quarter": "Q2",
+          "Volume": "67",
+          "Price": "35"
+        },
+        {
+          "Quarter": "Q3",
+          "Volume": "63",
+          "Price": "42"
+        },
+        {
+          "Quarter": "Q4",
+          "Volume": "69",
+          "Price": "34"
+        }
+      ]
+    }
+  ],
+  "FarmVisit": [
+    {
+      "Target": "40",
+      "ReqAve": "28",
+      "Completed": "30",
+      "ScaleUpperLimit": "40",
+      "ScaleLowerLimit": "0",
+      "ScaleDivision": "8"
+    }
+  ],
+  "CoffieVolume": [
+    {
+      "Target": "40",
+      "ReqAve": "30",
+      "Completed": "25",
+      "ScaleUpperLimit": "40",
+      "ScaleLowerLimit": "0",
+      "ScaleDivision": "8"
+    }
+  ],
+  "Home": [
+    {
+      "Image": "images/Home1.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    },
+    {
+      "Image": "images/Home2.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    },
+    {
+      "Image": "images/Home3.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    },
+    {
+      "Image": "images/Home1.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    },
+    {
+      "Image": "images/Home3.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    },
+    {
+      "Image": "images/Home3.png",
+      "Date": "22-07-2015",
+      "Time": "11:00",
+      "Event": "Place",
+      "Location": "TownHall Equador"
+    }
+  ],
+  "AssessmentSummary": [
+    {
+      "Type": "Compliant",
+      "Total": "24",
+      "Actual": "05"
+    },
+    {
+      "Type": "Non compliant",
+      "Total": "24",
+      "Actual": "03"
+    },
+    {
+      "Type": "Unanswered",
+      "Total": "24",
+      "Actual": "05"
+    },
+    {
+      "Type": "Not Applicable",
+      "Total": "24",
+      "Actual": "05"
+    }
+  ],
+  "Questions": [
+    {
+      "Sno": "86",
+      "Variety": "Approved varieties",
+      "Desc": "The coffee varieties planted are approved by the program.",
+      "FullDesc": "The farmer understands that the variety of coffee cultivated is a very important factor in achieving the best productivity. The Nespresso AAA Sustainable Quality program relies on the Cluster Administrator to determine the appropriate varieties that should be promoted to develop the best quality and productivity. Nevertheless, some varieties that can affect the quality profile the program seeks, such as Costa Rica 95, should be restricted. The restricted varieties will be a program access criteria, and in the case of existing AAA farms, there should be a defined substitution plan prior to three years. The farmer understands that the variety of coffee cultivated is a very important factor in achieving the best productivity. The Nespresso AAA Sustainable Quality program relies on the Cluster Administrator to determine the appropriate varieties that should be promoted to develop the best quality and productivity. Nevertheless, some varieties that can affect the quality profile the program seeks, such as Costa Rica 95, should be restricted. The restricted varieties will be a program access criteria, and in the case of existing AAA farms, there should be a defined substitution plan prior to three years.",
+      "Status": "Compliant"
+    },
+    {
+      "Sno": "87",
+      "Variety": "Crop management - Farm map",
+      "Desc": "The farmer has a map of the farm with main crops and environmental information.",
+      "FullDesc": "The farmer understands that the variety of coffee cultivated is a very important factor in achieving the best productivity. The Nespresso AAA Sustainable Quality program relies on the Cluster Administrator to determine the appropriate varieties that should be promoted to develop the best quality and productivity. Nevertheless, some varieties that can affect the quality profile the program seeks, such as Costa Rica 95, should be restricted. The restricted varieties will be a program access criteria, and in the case of existing AAA farms, there should be a defined substitution plan prior to three years.",
+      "Status": "Non Compliant"
+    },
+    {
+      "Sno": "88",
+      "Variety": "Crop management - Plots defined",
+      "Desc": "The plots are well defined",
+      "FullDesc": "The farmer understands that the variety of coffee cultivated is a very important factor in",
+      "Status": "Unanswered"
+    }
+  ]
+}

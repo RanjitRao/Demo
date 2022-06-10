@@ -1,0 +1,101 @@
+{
+
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "com.hkl.petauslista.fp_3",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
+	},
+
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "com.hkl.petauslista.fp_3.view.App",
+			"type": "XML"
+		},
+
+		"dependencies": {
+			"minUI5Version": "1.84.6",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"": {
+				"uri": "odata url here",
+				"type": "sap.ui.model.odata.ODataModel",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"demo": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/demo.json"
+			}
+		},
+		"routing": {
+			"config": {
+				"viewType": "XML",
+				"viewPath": "view",
+				"targetAggregation": "pages",
+				"targetControl": "idAppControl",
+				"clearTarget": true,
+				"transition": "slide"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "View1",
+				"view": "View1",
+				"viewPath": "com.hkl.petauslista.fp_3.view",
+				"targetAggregation": "pages"
+			}]
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		}
+	}
+}
