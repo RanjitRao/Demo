@@ -9,6 +9,7 @@ sap.ui.define([
 
 	return BaseController.extend("com.hkl.petauslista.fp_3.controller.View1", {
 		onInit: function () {
+			//comment added by Ranjit---
 			this._oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			this._oRouter.attachRouteMatched(this.onRouteMatched, this);
 			if (!this.oSDFragment) {
